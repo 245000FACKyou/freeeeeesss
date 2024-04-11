@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica3.MainPage">
+
+    <StackLayout>
+        <Button x:Name="saveText" Clicked="SaveText_Clicked"
+                Text="Сохранить"
+                HeightRequest="50" WidthRequest="68" Margin="10,10"/>
+        <Button x:Name="openText" Clicked="OpenText_Clicked"
+                Text="Открыть"
+                HeightRequest="50" WidthRequest="68" Margin="50,50"/>
+        <Label Text="TExt1" x:Name="Resultext"
+               Margin="25,25"/>
+        <BoxView/>
+    </StackLayout>
+
+</ContentPage>
